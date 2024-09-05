@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_main_page_hero_main_page_heroes",
+  "info": {
+    "displayName": "main-page-hero",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string"
+    },
+    "mainSubHeading": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
